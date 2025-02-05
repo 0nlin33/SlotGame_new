@@ -1,0 +1,4333 @@
+fileFormatVersion: 2
+guid: 5fb63cbbe6e784d4c84a20fc0f296b9d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mystery joker_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1987
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e33a2b059ea65d47b55133353d2e082
+      internalID: -85074344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1987
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bd229c8b4ad794ea6dfbaf2b48df7f
+      internalID: 1561608559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_2
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1987
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc6bdfb0649bc0408290e110dbed51b
+      internalID: 1651110109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_3
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1987
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da203eab6b85f9458c4bb36e604ff56
+      internalID: -1571068602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_4
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1987
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fef54ee5b523c4b9a3083bcb1e8935
+      internalID: -1360353272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_5
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1987
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a630ad8a4ccde8e44b67c35518589b2a
+      internalID: 747725203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_6
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1987
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26540cca25927cf4f92f52105cbf6b0f
+      internalID: 1919058286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_7
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1987
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706572107423bcd4088dc0222edefc43
+      internalID: -1615385698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1923
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670ff054ac7c69344941ff7da7a4749a
+      internalID: 1215386890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_9
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1923
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89385b6f1c5b334aa0d3dd1015c8c19
+      internalID: -2027742242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_10
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1923
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37838a22f62fe6d4580fff4063e946fe
+      internalID: -1569126385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_11
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1923
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40523fafec9579d43aa9d2f96684335c
+      internalID: 69171515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_12
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1923
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333f77591c6dab44a87ca8e3d4dcb974
+      internalID: 1956299529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_13
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1923
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67aa4f281f3a5124a9b410b8bc8b394b
+      internalID: 1028583758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_14
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1923
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f34201b4eb577746ac451e773c4ebb5
+      internalID: -1575496999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_15
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1923
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcd096262834be45afb5ef6c33ac40c
+      internalID: 1147329923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1859
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ded7fe44ccc1c64493b0fa874ee7d20
+      internalID: -2091814324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_17
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1859
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d1a78c6087f664682f169b62b22f1f
+      internalID: 1122472635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_18
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1859
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29aa68865f4072f4d91b76cbee173bfc
+      internalID: -712457896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_19
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1859
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c84f2919dae60c4daf77c7a46822323
+      internalID: 1057837675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_20
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1859
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929bfefb27b49f64e8d095c9b103020e
+      internalID: -1239483222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_21
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1859
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9d5fd5f837eee4a9eaad362e536d30
+      internalID: -760963687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_22
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1859
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b11f88d0e07794092cdc9136f4b0c8
+      internalID: 1088082451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_23
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1859
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f66ff6eb72b0154ab361289a299cad7
+      internalID: 1312907890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1795
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb24a63faad75148b0963adb440869f
+      internalID: -582197172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_25
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1795
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e6a980dda0e25419408b8364ed78be
+      internalID: -688624234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_26
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1795
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb760b9dd4316104fbac123188c1dff2
+      internalID: -156644039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_27
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1795
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef7f7e868f3c0f4bbd68a71525a4314
+      internalID: 1236428087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_28
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1795
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a182d2f3ca8a5cb4ab97dbd6f185e997
+      internalID: 907493043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_29
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1795
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96714fe090d3e4a44bfde1bc0a7937eb
+      internalID: 1785358872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_30
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1795
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769ff9b95410cb046a86805bdabd9c1e
+      internalID: -552499475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_31
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1795
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d434a95a14c604a8d9306ae053e2d3
+      internalID: -527762196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_32
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1731
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7cb58deee011442bd7b1f7ecc5b861
+      internalID: 951014240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_33
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1731
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67f900e8f2f21e4397aa7cfc6c6f865
+      internalID: -446822633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_34
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1731
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b7580c127a2164992ce26d47ba846c
+      internalID: -1585024985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_35
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1731
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b895d56624213df4c9671975faf3dc3e
+      internalID: -1426978338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_36
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1731
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a77461312708154d962cb584a5a6313
+      internalID: 937300905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_37
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1731
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf434bfd7639bbd40863c1fcf17f7aed
+      internalID: -865522809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_38
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1731
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a43aca370341b40951095a33637891
+      internalID: 946697006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_39
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1731
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e078571bd3c5354c9a203e338f11aa1
+      internalID: 878067460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_40
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1667
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5430ef329e480418af7a05b44f940f
+      internalID: -1000485400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_41
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1667
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef4de98a32e5244e8bd5c95a92e82b6
+      internalID: -687268976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_42
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1667
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a443d9a797ab14a83a9ad1a96f08cd
+      internalID: -1979326980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_43
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1667
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb228d94103e9e489827c2b6251f87a
+      internalID: 235243355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_44
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1667
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0db5c6f7593cf048bc4b82233efbbc9
+      internalID: -514769165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_45
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1667
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e69f64473aae3041bb5a870e4f31c8d
+      internalID: -1077715319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_46
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1667
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157743cab90517e4996f7a16ed25f51a
+      internalID: -48264523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_47
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1667
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06a25c68cdf49f43b664b5f6f0b7187
+      internalID: 1278113534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_48
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1603
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca5155a47feb884b9e0c606f3fde958
+      internalID: -765717418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_49
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1603
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350ee749b9889ba409a98665db6c7e41
+      internalID: -894964223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_50
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1603
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5b5b49c568c4c4bbf8df1a6623e17e
+      internalID: -436582443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_51
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1603
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c612aa71e34a3ba4fbeb09eddb9435bf
+      internalID: -978148708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_52
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1603
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280422fab76b4ef4baded8140392fdb1
+      internalID: 1076449214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_53
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1603
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c92e546c02d5bb488cb76ff6111711b
+      internalID: -567051055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_54
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1603
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eeefb70382b12f4ab6c8cb2ebaaac8c
+      internalID: 1200605448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_55
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1603
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045ec8ba92450534abf7b59bc3fbf15c
+      internalID: -1236358625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_56
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1539
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63817b9d1429ca34d8e84b6a5927bfa4
+      internalID: -406667917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_57
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1539
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ec9da9ed1c6e6429f52736a9980b08
+      internalID: -32021522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_58
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1539
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d826d363af293146901be21dbc1a1e5
+      internalID: -511934515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_59
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1539
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039711afdb451a6458356fd20fff77ee
+      internalID: -890948212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_60
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1539
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00930f45a023ff144b18c71c247bdd6d
+      internalID: 1779803644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_61
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1539
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08909a61a6fbf9a4582d305b93af8dc1
+      internalID: 1730052482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_62
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1539
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14288ea245f6e4f46a1f8c00adef0a4b
+      internalID: -351788579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_63
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1539
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a947acb8bc17a96418621f3cddde29b7
+      internalID: -1256008279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_64
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1475
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d6726f8881de94eb8d4310998c54f1
+      internalID: -113308836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_65
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1475
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73945ed7660c7c34bb8784e9f667814d
+      internalID: -1132866139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_66
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1475
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f576e719562430343aa8968559861839
+      internalID: 898606444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_67
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1475
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30295458cc7898468ca6fc9d969dd7d
+      internalID: 1755572089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_68
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1475
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f0886a538976440bee63c271f1b5fb
+      internalID: -773517965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_69
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1475
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f37115ca48562649af4e3dd78071250
+      internalID: 236393204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_70
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1475
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e21eb756d00b04282f857d24a1fa35
+      internalID: 2066973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_71
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1475
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce98c01b1067084884b726e025f2909
+      internalID: 430435028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_72
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1411
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e0d4abad2fcaa4f8c04b1246b6d421
+      internalID: 1867861239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_73
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1411
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3597b36d973aa4e9ddbe05dc6f7a03
+      internalID: 681278782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_74
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1411
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed884482bf349b449220a8adf6d9867
+      internalID: -358987703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_75
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1411
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbaa4a73243ea841bb54057da8f1778
+      internalID: 1826583174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_76
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1411
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5a76dd6a254b2448bc1571da2bf6e5
+      internalID: 2097417388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_77
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1411
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58db09ee521bc4c43b8447c7fae6a7b7
+      internalID: 1331892564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_78
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1411
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e40b589ab5f0a34aae85e6e810c5aca
+      internalID: -234274417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_79
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1411
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f34f779b01d654c9b3238e574490e2
+      internalID: 897746484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_80
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1347
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcbd66c3d99f524ba422c9dfe7d2fad
+      internalID: 286943393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_81
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1347
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3974f1030bab8f4594b11cff0d15971
+      internalID: -609470290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_82
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1347
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986b2e31083587043b81c6b550e6ba96
+      internalID: 1074272351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_83
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1347
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07591f52ddc7514ea8afd027b62b7a3
+      internalID: 189296401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_84
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1347
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c5e33991a91364e9d9bcb93feb4cd6
+      internalID: -1432493893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_85
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1347
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b1c71e33dbbb04cb14d72f07f36963
+      internalID: -652449925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_86
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1347
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a88ef6166f98647bdae98adb940691
+      internalID: -1565524797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_87
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1347
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da54167d993a394bbd4b048d7c349dd
+      internalID: 1865383002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_88
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1283
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca5ea6284e6da3499d235647bb8effa
+      internalID: -336466294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_89
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1283
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57e71747dc6f6d43a01f45671eb9787
+      internalID: 1435697084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_90
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1283
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3714b7703fa915f43b52a63a23d6f819
+      internalID: -318687991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_91
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1283
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e8df7d2c5722b4c80400ee1f83102d
+      internalID: 627077075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_92
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1283
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cec36d49d62c0246a4532177eb14605
+      internalID: 1054679901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_93
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1283
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158b135c37be24c4a8f7bb13a5bf7dc5
+      internalID: 1286947510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_94
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1283
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40e65396c6037b4aa8af6d7bc73c2dd
+      internalID: 1958337662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_95
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1283
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e6c759d3c684d40bb2774b1d5315fb
+      internalID: -889402394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_96
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1219
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959faca533884184a93c53ea256e5cdf
+      internalID: 133990022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_97
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1219
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60791970478d6af49ac5c3ffa069577d
+      internalID: -1808002027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_98
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1219
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2948caa5f6d85b24c909b5f792de79e5
+      internalID: 1893360400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_99
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1219
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee828cf7aa2300e499665d74c7dff97f
+      internalID: 954194413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_100
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1219
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77537d5e9aa24cf45a8025d97dc6d6c9
+      internalID: 815549380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_101
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1219
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807f89bb1b3587240a5c53ee2970a6e7
+      internalID: -1970028045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_102
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1219
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccdaa6b14980eb448cc80ec3575ce7b
+      internalID: -1120797607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_103
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1219
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6d00a09036010498decc26ddb82628
+      internalID: 1697671307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_104
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1155
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbc647b71728ad4da57525867885715
+      internalID: -830726185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_105
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1155
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56929eb3b7307546a4b6502e2fe78b4
+      internalID: 804961605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_106
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1155
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f94d0c5ba4553f488b241ab70da2ce9
+      internalID: 216607362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_107
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1155
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3399c4878fcb3f2499220a41c545dc81
+      internalID: 61375918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_108
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1155
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e092f0e1b6a904d8c3903f499f9a41
+      internalID: 1000853234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_109
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1155
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c98badde5cb9d48a39afe9fd0e2c60
+      internalID: 2094225981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_110
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1155
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835e3dfc2d950614a8d64486eb602faa
+      internalID: -2066255146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_111
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1155
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4dab73d3394ed4fbafcd80ba1a1127
+      internalID: -505921814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_112
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1091
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ce59f856065b94490b90a7047a4803
+      internalID: -1245095260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_113
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1091
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789e56f0685bee44fbf416115590ac50
+      internalID: -428594661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_114
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1091
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b734bd22ff342fc4a9075135240d6691
+      internalID: 85487440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_115
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1091
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3292678acb82d984589739176b8d790a
+      internalID: -1359951420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_116
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1091
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5403546d76a8a3241a4240964f055cb9
+      internalID: 145137719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_117
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1091
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fc80ad8c72e4a4ea0dc0ffad9de4ff
+      internalID: 2056329813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_118
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1091
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717ab50f3eb4d064a94a0dd72caea629
+      internalID: -1689908408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_119
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1091
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73df267ad58ce494fb7723ba2af98744
+      internalID: -1205998833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_120
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1027
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3628757dc2c9a4748b7c567c33007593
+      internalID: 787421464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_121
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1027
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982d70978ef67f54b9160ccff3e5ef42
+      internalID: 726402373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_122
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1027
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f733b92eec447db4d8ab92cabad74199
+      internalID: -1939205201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_123
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1027
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ed84e9bd329704194acc48f9dd97e0
+      internalID: 1115268014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_124
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1027
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabc0df63fe84224bb262ea103481cf6
+      internalID: -1376480929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_125
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1027
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb26b823d4ddf2e458e157ab8492bb8a
+      internalID: -1355497333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_126
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1027
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f39583af8a59b84190fcb79cf9c5c0a
+      internalID: 506627526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_127
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1027
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08db7296115a6974ba4cc704ffeebedf
+      internalID: 1604811265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_128
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 963
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5cf81cf4f9e104696a9460b784a523
+      internalID: 1453124893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_129
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 963
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e4ff54d4ef7f34fb173bb810c4072a
+      internalID: -769901194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_130
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 963
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920e095102cf3e045922334a7ac1aa12
+      internalID: 1153977459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_131
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 963
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cef74dca6b4cf409036cf5fe6354a6
+      internalID: 2127373162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_132
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 963
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29139f8a50412394fb7176d535b3bd6d
+      internalID: 1114789567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_133
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 963
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba81cd1e98b3e04583c7673d0e0f495
+      internalID: 97290664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_134
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 963
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b90e40f02f77c349b9195360111bb17
+      internalID: -1283775740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_135
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 963
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea70921f28369145b01f625335b2cdd
+      internalID: 392005795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_136
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 899
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d41ef961af6d354bb8ee8a0ba3a3b7e
+      internalID: -1563461851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_137
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 899
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa577621f9087604898b6da6d026104b
+      internalID: 119641472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_138
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 899
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b198c294c49ed0d48bfb2352f02264ba
+      internalID: -1417497204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_139
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 899
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba596e843de70e41be3dcd6966361da
+      internalID: 2030088925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_140
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 899
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918a234d413e45d4cbc4cb101db11c30
+      internalID: -1428488836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_141
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 899
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9069ec5f7c9c1584f8721aebf30ebe26
+      internalID: -1255340034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_142
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 899
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1313e1d01b50b4fb2ac32ceccaf869
+      internalID: 1057713856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_143
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 899
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20491d5ecd5dac94c8dfaade75c5fa71
+      internalID: 2143139277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_144
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 835
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f6b7284c9686f4887e52eaea5ba468
+      internalID: -43717351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_145
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 835
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9999c0ffad64ee245ba7bacd46bea4dc
+      internalID: -1674202742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_146
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 835
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e0340a47839f942b40985f5952fd54
+      internalID: -1796910097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_147
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 835
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30051f0608762d34595b612570223b77
+      internalID: 1714715921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_148
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 835
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153711727f4fc294e82807bce0428645
+      internalID: -1119789070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_149
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 835
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae746072ed8ad64392ac0e1c527643c
+      internalID: 276481643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_150
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 835
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014606098146d62419c5b32683995256
+      internalID: 1767776733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_151
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 835
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186981cd8d583404c84346ec9abfbf19
+      internalID: 1521159184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_152
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 771
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df898ff08ac4d844ac8a1ebf2e2a0ad
+      internalID: 595849419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_153
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 771
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0051e31a520d03745a2abd1ed7dcf180
+      internalID: -565686647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_154
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 771
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c162fcfc0db1f684ea387898d62de6cc
+      internalID: 1081739479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_155
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 771
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51550d4beec768e41a7e1de767130101
+      internalID: 1769975900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_156
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 771
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8787029fe6a457647a27ef6b4ff2c361
+      internalID: 169138673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_157
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 771
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4932c892454e77d418e96af2a465ace0
+      internalID: 2114529303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_158
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 771
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4f8547c547d4d41ac6fe10c5bec039
+      internalID: 470070596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_159
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 771
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5dcca043a53e144b984d99654ad8fa
+      internalID: 283936052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_160
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 707
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f1da0253dfd0e439ac41adc1ce72e0
+      internalID: -2048402934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_161
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 707
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff79993d0d3886648b38ce5e3cf95f2e
+      internalID: -42203856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_162
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 707
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e66b336f790ef46a6ea509356def4a
+      internalID: 514477543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_163
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 707
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d11da89521d1d94087bf9ba83d2b946
+      internalID: 580510232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_164
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 707
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176165d917360bf4e9d8b927fc72467b
+      internalID: 1630557077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_165
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 707
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6db86cd31ee9cd469f5adf0085235ed
+      internalID: 1478775019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_166
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 707
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e552f6623f83f1a41b8ca932165f592c
+      internalID: -241924127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_167
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 707
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997bf45e8b0e9bf419dac2becced2c32
+      internalID: -342646300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_168
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 643
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211acac6dec595a4e8abfed84ac086dd
+      internalID: -177263755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_169
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 643
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007b4a9153c8a244781a02758325cac9
+      internalID: -1687411706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_170
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 643
+        width: 246
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17aede77bfecb14288027c83233fe1a
+      internalID: -1804705183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_171
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 643
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6616379f8df06aa40932e2abf5ea243a
+      internalID: 1370649929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_172
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 643
+        width: 246
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49562aff8f6d84488ddc9fc3973fa7e
+      internalID: 1155369504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_173
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 643
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8004ef274ac77e14aa935b28667d51a0
+      internalID: -713467624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_174
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 643
+        width: 246
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66f41fa563722f42aa6f4e6aba6ca1a
+      internalID: -237345589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_175
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 643
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8cf0e4d18d8e6428b17361ebf171c1
+      internalID: -1231110162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_176
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 579
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ceab52418b73b4bbb14a0079bf9593
+      internalID: 516081425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_177
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 579
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3e80e824f5cb0469a0ad70409f203d
+      internalID: -387846876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_178
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 579
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a0674eec414344392ec48fbbe48e75
+      internalID: -1552475037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_179
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 579
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b97d06430f3e645bb4d18b58166a79
+      internalID: 1475909918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_180
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 579
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c06ccbc2e8b1446a715e48a6713a2d
+      internalID: -561612964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_181
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 579
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbdf708dedc1ff4da9531cafb8f7898
+      internalID: -1373313567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_182
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 579
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe4c0a94544b024fb328d44b85adbfc
+      internalID: -1373655731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_183
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 579
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b093b4ec1f2c72944b4f3935cbe3c54f
+      internalID: 1053145750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_184
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 515
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28dfafb4a4c9d1c49bcf097ab17c2338
+      internalID: 106071182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_185
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 515
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf1f06deabfe0c42a85ab8905be8090
+      internalID: -621191291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_186
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 515
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc59848c2f9f86147a1a99395e74d93d
+      internalID: -1208724797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_187
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 515
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb999a31612d664ebd1fbad6f66bcbd
+      internalID: 497353834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_188
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 515
+        width: 245
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282fd22089736d24da6ac2fdb5ae9ccf
+      internalID: 1936700048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mystery joker_189
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 515
+        width: 179
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8b25c4ade052f449f1799b21b04e00
+      internalID: 1413824257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mystery joker_0: -85074344
+      Mystery joker_1: 1561608559
+      Mystery joker_10: -1569126385
+      Mystery joker_100: 815549380
+      Mystery joker_101: -1970028045
+      Mystery joker_102: -1120797607
+      Mystery joker_103: 1697671307
+      Mystery joker_104: -830726185
+      Mystery joker_105: 804961605
+      Mystery joker_106: 216607362
+      Mystery joker_107: 61375918
+      Mystery joker_108: 1000853234
+      Mystery joker_109: 2094225981
+      Mystery joker_11: 69171515
+      Mystery joker_110: -2066255146
+      Mystery joker_111: -505921814
+      Mystery joker_112: -1245095260
+      Mystery joker_113: -428594661
+      Mystery joker_114: 85487440
+      Mystery joker_115: -1359951420
+      Mystery joker_116: 145137719
+      Mystery joker_117: 2056329813
+      Mystery joker_118: -1689908408
+      Mystery joker_119: -1205998833
+      Mystery joker_12: 1956299529
+      Mystery joker_120: 787421464
+      Mystery joker_121: 726402373
+      Mystery joker_122: -1939205201
+      Mystery joker_123: 1115268014
+      Mystery joker_124: -1376480929
+      Mystery joker_125: -1355497333
+      Mystery joker_126: 506627526
+      Mystery joker_127: 1604811265
+      Mystery joker_128: 1453124893
+      Mystery joker_129: -769901194
+      Mystery joker_13: 1028583758
+      Mystery joker_130: 1153977459
+      Mystery joker_131: 2127373162
+      Mystery joker_132: 1114789567
+      Mystery joker_133: 97290664
+      Mystery joker_134: -1283775740
+      Mystery joker_135: 392005795
+      Mystery joker_136: -1563461851
+      Mystery joker_137: 119641472
+      Mystery joker_138: -1417497204
+      Mystery joker_139: 2030088925
+      Mystery joker_14: -1575496999
+      Mystery joker_140: -1428488836
+      Mystery joker_141: -1255340034
+      Mystery joker_142: 1057713856
+      Mystery joker_143: 2143139277
+      Mystery joker_144: -43717351
+      Mystery joker_145: -1674202742
+      Mystery joker_146: -1796910097
+      Mystery joker_147: 1714715921
+      Mystery joker_148: -1119789070
+      Mystery joker_149: 276481643
+      Mystery joker_15: 1147329923
+      Mystery joker_150: 1767776733
+      Mystery joker_151: 1521159184
+      Mystery joker_152: 595849419
+      Mystery joker_153: -565686647
+      Mystery joker_154: 1081739479
+      Mystery joker_155: 1769975900
+      Mystery joker_156: 169138673
+      Mystery joker_157: 2114529303
+      Mystery joker_158: 470070596
+      Mystery joker_159: 283936052
+      Mystery joker_16: -2091814324
+      Mystery joker_160: -2048402934
+      Mystery joker_161: -42203856
+      Mystery joker_162: 514477543
+      Mystery joker_163: 580510232
+      Mystery joker_164: 1630557077
+      Mystery joker_165: 1478775019
+      Mystery joker_166: -241924127
+      Mystery joker_167: -342646300
+      Mystery joker_168: -177263755
+      Mystery joker_169: -1687411706
+      Mystery joker_17: 1122472635
+      Mystery joker_170: -1804705183
+      Mystery joker_171: 1370649929
+      Mystery joker_172: 1155369504
+      Mystery joker_173: -713467624
+      Mystery joker_174: -237345589
+      Mystery joker_175: -1231110162
+      Mystery joker_176: 516081425
+      Mystery joker_177: -387846876
+      Mystery joker_178: -1552475037
+      Mystery joker_179: 1475909918
+      Mystery joker_18: -712457896
+      Mystery joker_180: -561612964
+      Mystery joker_181: -1373313567
+      Mystery joker_182: -1373655731
+      Mystery joker_183: 1053145750
+      Mystery joker_184: 106071182
+      Mystery joker_185: -621191291
+      Mystery joker_186: -1208724797
+      Mystery joker_187: 497353834
+      Mystery joker_188: 1936700048
+      Mystery joker_189: 1413824257
+      Mystery joker_19: 1057837675
+      Mystery joker_2: 1651110109
+      Mystery joker_20: -1239483222
+      Mystery joker_21: -760963687
+      Mystery joker_22: 1088082451
+      Mystery joker_23: 1312907890
+      Mystery joker_24: -582197172
+      Mystery joker_25: -688624234
+      Mystery joker_26: -156644039
+      Mystery joker_27: 1236428087
+      Mystery joker_28: 907493043
+      Mystery joker_29: 1785358872
+      Mystery joker_3: -1571068602
+      Mystery joker_30: -552499475
+      Mystery joker_31: -527762196
+      Mystery joker_32: 951014240
+      Mystery joker_33: -446822633
+      Mystery joker_34: -1585024985
+      Mystery joker_35: -1426978338
+      Mystery joker_36: 937300905
+      Mystery joker_37: -865522809
+      Mystery joker_38: 946697006
+      Mystery joker_39: 878067460
+      Mystery joker_4: -1360353272
+      Mystery joker_40: -1000485400
+      Mystery joker_41: -687268976
+      Mystery joker_42: -1979326980
+      Mystery joker_43: 235243355
+      Mystery joker_44: -514769165
+      Mystery joker_45: -1077715319
+      Mystery joker_46: -48264523
+      Mystery joker_47: 1278113534
+      Mystery joker_48: -765717418
+      Mystery joker_49: -894964223
+      Mystery joker_5: 747725203
+      Mystery joker_50: -436582443
+      Mystery joker_51: -978148708
+      Mystery joker_52: 1076449214
+      Mystery joker_53: -567051055
+      Mystery joker_54: 1200605448
+      Mystery joker_55: -1236358625
+      Mystery joker_56: -406667917
+      Mystery joker_57: -32021522
+      Mystery joker_58: -511934515
+      Mystery joker_59: -890948212
+      Mystery joker_6: 1919058286
+      Mystery joker_60: 1779803644
+      Mystery joker_61: 1730052482
+      Mystery joker_62: -351788579
+      Mystery joker_63: -1256008279
+      Mystery joker_64: -113308836
+      Mystery joker_65: -1132866139
+      Mystery joker_66: 898606444
+      Mystery joker_67: 1755572089
+      Mystery joker_68: -773517965
+      Mystery joker_69: 236393204
+      Mystery joker_7: -1615385698
+      Mystery joker_70: 2066973
+      Mystery joker_71: 430435028
+      Mystery joker_72: 1867861239
+      Mystery joker_73: 681278782
+      Mystery joker_74: -358987703
+      Mystery joker_75: 1826583174
+      Mystery joker_76: 2097417388
+      Mystery joker_77: 1331892564
+      Mystery joker_78: -234274417
+      Mystery joker_79: 897746484
+      Mystery joker_8: 1215386890
+      Mystery joker_80: 286943393
+      Mystery joker_81: -609470290
+      Mystery joker_82: 1074272351
+      Mystery joker_83: 189296401
+      Mystery joker_84: -1432493893
+      Mystery joker_85: -652449925
+      Mystery joker_86: -1565524797
+      Mystery joker_87: 1865383002
+      Mystery joker_88: -336466294
+      Mystery joker_89: 1435697084
+      Mystery joker_9: -2027742242
+      Mystery joker_90: -318687991
+      Mystery joker_91: 627077075
+      Mystery joker_92: 1054679901
+      Mystery joker_93: 1286947510
+      Mystery joker_94: 1958337662
+      Mystery joker_95: -889402394
+      Mystery joker_96: 133990022
+      Mystery joker_97: -1808002027
+      Mystery joker_98: 1893360400
+      Mystery joker_99: 954194413
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
