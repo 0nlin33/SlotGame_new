@@ -9,12 +9,28 @@ public class Symbols : MonoBehaviour
     public Sprite symbolImage;
     public Sprite symbolWinImage;
 
+    
+    public string symbolName;
+
     public int symbolValue;
+    
+    private Vector3 pos;
+    private Vector3 oldPos;
     
     public SpriteRenderer symbolRenderer;
 
     private void Start()
     {
+        pos = transform.position;
+        oldPos = transform.position;
+        
         symbolRenderer.sprite = symbolImage;
+        symbolName = symbolRenderer.sprite.name;
+    }
+    
+    private void Update()
+    {
+        pos = transform.position;
+        oldPos = pos;
     }
 }

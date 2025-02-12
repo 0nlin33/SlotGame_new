@@ -51,7 +51,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
@@ -100,6 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   symbolImage: {fileID: 626099319, guid: b90493355441df5498398e4e4191c1a0, type: 3}
   symbolWinImage: {fileID: 1994066500, guid: b90493355441df5498398e4e4191c1a0, type: 3}
+  symbolName: 
   symbolValue: 2
   symbolRenderer: {fileID: 2925002094501657654}
 --- !u!1 &8460898265726805626
@@ -184,5 +185,5 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_SpriteSortPoint: 0
