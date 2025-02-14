@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8585763407280314465}
   - component: {fileID: 4500335770681816182}
   - component: {fileID: 7209250284092933279}
+  - component: {fileID: 436415826155344713}
   m_Layer: 0
   m_Name: Berry
   m_TagString: Untagged
@@ -103,6 +104,41 @@ MonoBehaviour:
   symbolName: 
   symbolValue: 2
   symbolRenderer: {fileID: 2925002094501657654}
+--- !u!58 &436415826155344713
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6336886560239244000}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &8460898265726805626
 GameObject:
   m_ObjectHideFlags: 0

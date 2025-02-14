@@ -14,15 +14,30 @@ public class Slotreel : MonoBehaviour
     public float spinSpeed = 2000f;
     public bool isSpinning;
     
-    [SerializeField] List<Symbols> reelSymbolsList = new List<Symbols>();
+    private SlotController slotController;
+    
+    public List<Symbols> reelSymbolsList = new List<Symbols>();
     
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        if (spawnReel)
+        /*if (spawnReel)
         {
             SpawnReelSymbols();
-        }
+        }*/
+        SpawnReelSymbols();
+    }
+
+    private void Start()
+    {
+        slotController = SlotController.instance;
+
+        slotController.OnStop += StopSpinning;
+    }
+
+    private void StopSpinning(bool spinStatus)
+    {
+        isSpinning = spinStatus;
     }
 
     private void Update()
@@ -36,11 +51,6 @@ public class Slotreel : MonoBehaviour
     public void StartSpinning()
     {
         isSpinning = true;
-    }
-
-    public void StopSpinning()
-    {
-        isSpinning = false;
     }
 
     void SpawnReelSymbols()
@@ -73,6 +83,6 @@ public class Slotreel : MonoBehaviour
     
     void RotateObjects()
     {
-        transform.Rotate(Vector3.right * spinSpeed * Time.deltaTime);
+        transform.Rotate(Vector3.left * spinSpeed);
     }
 }
