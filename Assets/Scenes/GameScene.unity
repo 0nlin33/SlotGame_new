@@ -794,9 +794,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 170722328}
-        m_TargetAssemblyTypeName: Slotreel, Assembly-CSharp
-        m_MethodName: StopSpinning
+      - m_Target: {fileID: 1541138605}
+        m_TargetAssemblyTypeName: SlotController, Assembly-CSharp
+        m_MethodName: StopSpin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1229,7 +1229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43a86eb43073a5445827b0036262d0b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slotreel1: {fileID: 0}
+  slotreel1: {fileID: 170722328}
   slotreel2: {fileID: 0}
   slotreel3: {fileID: 0}
   rotationSpeed: 20
@@ -1597,9 +1597,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 170722328}
-        m_TargetAssemblyTypeName: Slotreel, Assembly-CSharp
-        m_MethodName: StartSpinning
+      - m_Target: {fileID: 1541138605}
+        m_TargetAssemblyTypeName: SlotController, Assembly-CSharp
+        m_MethodName: StartSpin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

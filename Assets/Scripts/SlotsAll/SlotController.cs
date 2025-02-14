@@ -80,7 +80,7 @@ public class SlotController : MonoBehaviour
 
         if (isSpinning)
         {
-            slotreel1.transform.Rotate(Vector3.down * currentSpeed * Time.deltaTime);
+            slotreel1.transform.Rotate(Vector3.left * currentSpeed * Time.deltaTime);
             
             if (isStopping)
             {
@@ -104,7 +104,7 @@ public class SlotController : MonoBehaviour
     {
         Debug.Log("Stop Spin pressed");
         isStopping = true;
-        OnStop?.Invoke(false);
+        //OnStop?.Invoke(false);
         targetStopPosition = FindClosestSymbol();
     }
     
@@ -115,7 +115,7 @@ public class SlotController : MonoBehaviour
     
         foreach (Transform symbol in symbolPositions)
         {
-            float distance = Mathf.Abs(slotreel1.transform.eulerAngles.y - symbol.eulerAngles.y);
+            float distance = Mathf.Abs(raycaster3.transform.eulerAngles.y - symbol.eulerAngles.y);
             if (distance < minDistance)
             {
                 minDistance = distance;
