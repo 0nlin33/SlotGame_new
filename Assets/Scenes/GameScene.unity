@@ -184,12 +184,23 @@ MonoBehaviour:
   - {fileID: 5081964022980185993, guid: 6b3868070db84384f8648ad4217c2422, type: 3}
   - {fileID: 23413159721292548, guid: 82e4fcbf1b1428f48a7fda04831cedba, type: 3}
   - {fileID: 3718052499769789615, guid: 234d2ed98e8c8f04ca69c0ffc4d447d6, type: 3}
+  raycast1: {fileID: 0}
+  raycast2: {fileID: 0}
+  raycast3: {fileID: 0}
   radius: 5
   reelNumber: 0
   spawnReel: 1
   spinSpeed: 20
+  currentSpeed: 0
+  decelerationRate: 500
+  stopThreshold: 5
   isSpinning: 0
+  isStopping: 0
   reelSymbolsList: []
+  raycasters:
+  - {fileID: 747826011}
+  - {fileID: 500642407}
+  - {fileID: 257587668}
 --- !u!212 &170722329
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1229,17 +1240,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43a86eb43073a5445827b0036262d0b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slotreel1: {fileID: 170722328}
+  slotreel1: {fileID: 0}
   slotreel2: {fileID: 0}
   slotreel3: {fileID: 0}
-  rotationSpeed: 20
-  raycaster1: {fileID: 747826012}
-  raycaster2: {fileID: 500642408}
-  raycaster3: {fileID: 257587669}
-  spinSpeed: 1000
-  deceleration: 500
-  stopThreshold: 5
-  symbolPositions: []
 --- !u!1 &1771439804
 GameObject:
   m_ObjectHideFlags: 0
