@@ -124,7 +124,7 @@ public class SlotController : MonoBehaviour
         }
         return closest;
     }
-    
+     
     
     private void SnapToClosestSymbol()
     {

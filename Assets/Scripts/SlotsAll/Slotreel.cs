@@ -31,28 +31,8 @@ public class Slotreel : MonoBehaviour
     private void Start()
     {
         slotController = SlotController.instance;
-
-        slotController.OnStop += StopSpinning;
-    }
-
-    private void StopSpinning(bool spinStatus)
-    {
-        isSpinning = spinStatus;
-    }
-
-    private void Update()
-    {
-        if (isSpinning)
-        {
-            RotateObjects();
-        }
     }
     
-    public void StartSpinning()
-    {
-        isSpinning = true;
-    }
-
     void SpawnReelSymbols()
     {
         if (reelSymbols == null || reelSymbols.Count == 0)
@@ -79,10 +59,5 @@ public class Slotreel : MonoBehaviour
             
             reelSymbolsList.Add(spawnedSymbol);
         }
-    }
-    
-    void RotateObjects()
-    {
-        transform.Rotate(Vector3.left * spinSpeed);
     }
 }
