@@ -11,8 +11,6 @@ public class Symbols : MonoBehaviour
 
     
     public string symbolName;
-
-    public int symbolValue;
     
     private Vector3 pos;
     private Vector3 oldPos;
@@ -21,16 +19,10 @@ public class Symbols : MonoBehaviour
 
     private void Start()
     {
-        pos = transform.position;
-        oldPos = transform.position;
+        /*pos = transform.position;
+        oldPos = transform.position;*/
         
         symbolRenderer.sprite = symbolImage;
         symbolName = symbolRenderer.sprite.name;
-    }
-    
-    private void Update()
-    {
-        pos = transform.position;
-        oldPos = pos;
     }
 }
