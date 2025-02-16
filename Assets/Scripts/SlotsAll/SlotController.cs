@@ -63,6 +63,7 @@ public class SlotController : MonoBehaviour
     public void StopSpin()
     {
         startSpinning = false;
+        isStopping = true;
         OnStop?.Invoke(true);
     }
 
@@ -103,53 +104,70 @@ public class SlotController : MonoBehaviour
         return newBetAmount;
     }
 
-    public Action<int> OnBetPlaced;
+    public Action<int> OnBalanceChanged;
     public void PlaceBet()
     {
-        OnBetPlaced?.Invoke(-newBetAmount);
-        
+        OnBalanceChanged?.Invoke(-newBetAmount);
+        winCheckOnce = true;
         StartSpin();
     }
 
-    public Action<int> OnBetWon;
+    public Action<int, int> OnBetWon;
 
     private void Update()
     {
-        if (startSpinning)
+        if (startSpinning || isStopping)
         {
             if (slotreel1.isSpinning == false && slotreel2.isSpinning == false && slotreel3.isSpinning == false)
             {
-                WinChecking();
+                StartCoroutine(WinStatus());
             }
         }
-        
     }
 
-    private int i;
+    private bool winCheckOnce = false;
+    IEnumerator WinStatus()
+    {
+        yield return new WaitForSeconds(1f);
+        if (winCheckOnce)
+        {
+            isStopping = false;
+            WinChecking();
+        }
+    }
+
+    private int j;
     public void WinChecking()
     {
-        Debug.Log("Win Checking "+i+" called this many times");
-        i++;
-        if (slotreel1.rayCasters[0].GetSymbol() == slotreel2.rayCasters[0].GetSymbol() ==
-            slotreel3.rayCasters[0].GetSymbol())
-        {
-            OnBetWon?.Invoke(newBetAmount * 5);
-        }
-
-        if (slotreel1.rayCasters[1].GetSymbol() == slotreel2.rayCasters[1].GetSymbol() ==
-            slotreel3.rayCasters[1].GetSymbol())
-        {
-            OnBetWon?.Invoke(newBetAmount * 10);
-        }
-        
-        if (slotreel1.rayCasters[2].GetSymbol() == slotreel2.rayCasters[2].GetSymbol() ==
-            slotreel3.rayCasters[2].GetSymbol())
-        {
-            OnBetWon?.Invoke(newBetAmount * 20);
-        }
-        
+        winCheckOnce = false;
         startSpinning = false;
-        
+        Debug.Log("Win Checking "+j+" called this many times");
+        j++;
+
+        for (int i = 0; i < 3; i++)
+        {
+            if (slotreel1.rayCasterSymbol.Count > 0 && slotreel2.rayCasterSymbol.Count > 0 &&
+                slotreel3.rayCasterSymbol.Count > 0)
+            {
+                if (slotreel1.rayCasterSymbol[i].symbolID == slotreel2.rayCasterSymbol[i].symbolID && slotreel1.rayCasterSymbol[i].symbolID == slotreel3.rayCasterSymbol[i].symbolID)
+                {
+                    if (i == 0)
+                    {
+                        OnBetWon?.Invoke(newBetAmount * 5, 1);
+                    }
+                    else if (i == 1)
+                    {
+                        OnBetWon?.Invoke(newBetAmount * 10, 2);
+                    }
+                    else
+                    {
+                        OnBetWon?.Invoke(newBetAmount * 20, 3);
+                    }
+                    
+                    
+                }
+            }
+        }
     }
     
 }

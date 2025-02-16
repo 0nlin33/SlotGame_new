@@ -102,6 +102,7 @@ MonoBehaviour:
   symbolImage: {fileID: 626099319, guid: b90493355441df5498398e4e4191c1a0, type: 3}
   symbolWinImage: {fileID: 1994066500, guid: b90493355441df5498398e4e4191c1a0, type: 3}
   symbolName: 
+  symbolID: 2
   symbolRenderer: {fileID: 2925002094501657654}
 --- !u!58 &436415826155344713
 CircleCollider2D:

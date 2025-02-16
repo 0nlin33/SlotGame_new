@@ -14,6 +14,12 @@ public class UIHandling : MonoBehaviour
     [SerializeField] private Button FastModeOn;
     [SerializeField] private Button FastModeOff;
     
+    
+    [Header("Graphic elements")]
+    [SerializeField] private GameObject winLine1Effect;
+    [SerializeField] private GameObject winLine2Effect;
+    [SerializeField] private GameObject winLine3Effect;
+    
     [Header("Text Elements")]
     [SerializeField] private TextMeshProUGUI betAmountText;
     [SerializeField] private TextMeshProUGUI balanceAmountText;
@@ -26,12 +32,12 @@ public class UIHandling : MonoBehaviour
     {
         slotController = SlotController.instance;
 
-        slotController.OnBetPlaced += ChangeCurrentBalance;
+        slotController.OnBalanceChanged += ChangeCurrentBalance;
         slotController.OnStart += StartPressed;
         slotController.OnStop += StopPressed;
         slotController.OnFastModeToggled += ToggleFastMode;
         slotController.OnBetWon += OnBetWon;
-        
+
         
         balanceAmountText.text = slotController.BalanceInfo().ToString();
         betAmountText.text = slotController.currentBetAmount().ToString();
@@ -43,13 +49,54 @@ public class UIHandling : MonoBehaviour
         FastModeOn.gameObject.SetActive(true);
         FastModeOff.gameObject.SetActive(false);
     }
+    
+    private bool wonMessage = false;
 
-    private void OnBetWon(int winAmount)
+    private void OnBetWon(int winAmount, int winLine)
     {
+        spinButton.interactable = false;
+        wonMessage = true;
         winAmountText.text = winAmount.ToString();
         messageDisplayText.text = "Congratulations, You win "+winAmount;
+        
+        StartCoroutine(DisplayWinLine(winLine));
     }
 
+    IEnumerator DisplayWinLine(int winLine)
+    {
+        for (int i = 0; i < 2; i++)
+        {
+            yield return new WaitForSeconds(1f);
+        
+            if (winLine == 1)
+            {
+                winLine1Effect.SetActive(true);
+            }
+        
+            yield return new WaitForSeconds(0.5f);
+        
+            if (winLine == 2)
+            {
+                winLine2Effect.SetActive(true);
+            }
+        
+            winLine1Effect.SetActive(false);
+            yield return new WaitForSeconds(0.5f);
+
+            if (winLine == 3)
+            {
+                winLine3Effect.SetActive(true);
+            }
+        
+            winLine2Effect.SetActive(false);
+            yield return new WaitForSeconds(0.5f);
+        
+            winLine3Effect.SetActive(false);
+        }
+        
+        spinButton.interactable = true; 
+    }
+    
     private void ToggleFastMode(bool obj)
     {
         FastModeOff.gameObject.SetActive(obj);
@@ -70,6 +117,12 @@ public class UIHandling : MonoBehaviour
         stopButton.gameObject.SetActive(false);
         spinButton.gameObject.SetActive(true);
         
+        StartCoroutine(EnableSpinButton());
+    }
+
+    IEnumerator EnableSpinButton()
+    {
+        yield return new WaitForSeconds(1f);
         spinButton.interactable = true;
     }
 
@@ -81,6 +134,8 @@ public class UIHandling : MonoBehaviour
         messageDisplayText.text = "Good Luck!";
 
         StartCoroutine(ShowSpinButton());
+
+        balanceAmountText.text = slotController.BalanceInfo().ToString();
     }
 
     IEnumerator ShowSpinButton()
@@ -101,8 +156,11 @@ public class UIHandling : MonoBehaviour
         StopPressed(true);
         yield return new WaitForSeconds(.5f);
         spinButton.interactable = true;
-        
-        messageDisplayText.text = "Press Spin to play!!!";
+
+        if (!wonMessage)
+        {
+            messageDisplayText.text = "Press Spin to play!!!";
+        }
     }
 
     private void ChangeCurrentBalance(int obj)

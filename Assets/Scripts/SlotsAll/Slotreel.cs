@@ -109,12 +109,11 @@ public class Slotreel : MonoBehaviour
         // Snap to the exact angle where the symbol aligns with the middle raycaster
         float targetRotationX = targetSymbol.transform.localEulerAngles.x;
 
-        transform.DORotate(new Vector3(targetRotationX, 0, 0), decelerationDuration, RotateMode.Fast)
-            .SetEase(Ease.Linear);
+        transform.DORotate(new Vector3(-generatedValue*stoppingAngle-96, 0, 0), decelerationDuration, RotateMode.Fast)
+            .SetEase(Ease.Linear).OnComplete(()=>ResultSymbols());
 
         spinTween.Kill();
         isSpinning = false;
-        ResultSymbols();
     }
 
     public List<Symbols> rayCasterSymbol = new List<Symbols>();
@@ -134,17 +133,22 @@ public class Slotreel : MonoBehaviour
 
     void SpinReel()
     {
+        if (rayCasterSymbol.Count > 0)
+        {
+            rayCasterSymbol.Clear();
+        }
+        
         isSpinning = true;
         
         if (fastPlay)
         { 
-            spinTween = transform.DORotate(new Vector3(generatedValue*stoppingAngle*10, 0, 0), 0.5f, RotateMode.FastBeyond360)
+            spinTween = transform.DORotate(new Vector3(360*-generatedValue*10/*generatedValue*stoppingAngle*10*/, 0, 0), 0.5f, RotateMode.FastBeyond360)
                 .SetEase(Ease.Linear)
                 .OnComplete(() => StopReel(true));
         }
         else
         { 
-            spinTween = transform.DORotate(new Vector3(generatedValue*stoppingAngle*10, 0, 0), 3f, RotateMode.FastBeyond360)
+            spinTween = transform.DORotate(new Vector3(360*-generatedValue*10/*generatedValue*stoppingAngle*10*/, 0, 0), 3f, RotateMode.FastBeyond360)
                 .SetEase(Ease.Linear)
                 .OnComplete(() => StopReel(true));
         }
@@ -170,6 +174,8 @@ public class Slotreel : MonoBehaviour
             Vector3 spawnPosition = transform.position + new Vector3(0, Mathf.Cos(radians), Mathf.Sin(radians)) * radius;
             
             Symbols spawnedSymbol = Instantiate(reelSymbols[i], spawnPosition, Quaternion.Euler(0,0,0));
+            
+            //spawnedSymbol.name += Random.Range(0, 100000).ToString(); Identifier to compare
             
             spawnedSymbol.transform.parent = transform;
             

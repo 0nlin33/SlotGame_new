@@ -17,11 +17,16 @@ public class BalanceHandler : MonoBehaviour
         
         slotController = SlotController.instance;
 
-        slotController.OnBetPlaced += BalanceChange;
+        slotController.OnBalanceChanged += OnBetPlace;
         slotController.OnBetWon += BalanceChange;
     }
 
-    private void BalanceChange(int changeAmount)
+    private void OnBetPlace(int changeAmount)
+    {
+        currentBalance += changeAmount;
+    }
+
+    private void BalanceChange(int changeAmount, int winLineNumber)
     {
         currentBalance += changeAmount;
     }

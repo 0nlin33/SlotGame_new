@@ -11,6 +11,7 @@ public class Symbols : MonoBehaviour
 
     
     public string symbolName;
+    public int symbolID;
     
     private Vector3 pos;
     private Vector3 oldPos;

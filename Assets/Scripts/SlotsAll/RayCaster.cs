@@ -8,7 +8,7 @@ public class RayCaster : MonoBehaviour
 
     public Symbols GetSymbol()
     {
-        Collider2D hit = Physics2D.OverlapPoint(new Vector2(transform.position.x, transform.position.y));
+        Collider2D hit = Physics2D.OverlapCircle(new Vector2(transform.position.x, transform.position.y), .1f);
         if (hit)
         {
             return hit.GetComponent<Symbols>();
