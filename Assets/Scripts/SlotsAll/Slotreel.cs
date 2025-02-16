@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
+using Random = UnityEngine.Random;
 
 public class Slotreel : MonoBehaviour
 {
@@ -15,6 +17,7 @@ public class Slotreel : MonoBehaviour
     public int radius = 5;
     public int reelNumber = 0;
     
+    
     public bool spawnReel = true;
     public float spinSpeed = 2000f;
     public float currentSpeed;
@@ -22,13 +25,22 @@ public class Slotreel : MonoBehaviour
     public float stopThreshold = 5f;
     
     public bool isSpinning;
-    public bool isStopping;
+    public bool fastPlay;
+    
+    public List<float> StoppingSpots = new List<float>();
     
     private SlotController slotController;
     
     public List<Symbols> reelSymbolsList = new List<Symbols>();
     public Transform[] raycasters;
+
+    public float stoppingAngle;
     public float raycastMaxDistance = 0.8f;
+    private float decelerationDuration = 0.5f;
+
+
+    public bool simulateOutcome;
+    public int simulatedSymbolIndex;
     
     // Start is called before the first frame update
     void Awake()
@@ -46,37 +58,111 @@ public class Slotreel : MonoBehaviour
 
         slotController.OnStop += StopReel;
         slotController.OnStart += SpinReel;
+        stoppingAngle = 360/reelSymbolsList.Count;
+        
+        StartCoroutine(SpinReelRoutine());
     }
+    
+    
+    IEnumerator SpinReelRoutine()
+    {
+        float elapsedTime = 0f;
+        
+        if (fastPlay)
+        {
+            while (elapsedTime < 1f)
+            {
+                transform.Rotate(Vector3.left * spinSpeed * Time.deltaTime);
+                elapsedTime += Time.deltaTime;
+                yield return null;
+            }
+        }
+        else
+        {
+            while (elapsedTime < 3f)
+            {
+                transform.Rotate(Vector3.left * spinSpeed * Time.deltaTime);
+                elapsedTime += Time.deltaTime;
+                yield return null;
+            }
+        }
+        
+
+        StopReel(true);
+    }
+    
+    public int generatedSymbolIndex;
+    int SymbolIndex()
+    {
+        int stoppingSymbolIndex;
+        if (simulateOutcome)
+        {
+            stoppingSymbolIndex = simulatedSymbolIndex;
+        }
+        else
+        {
+            stoppingSymbolIndex = Random.Range(0, reelSymbolsList.Count-1);
+            generatedSymbolIndex = stoppingSymbolIndex;
+        }
+        
+        return stoppingSymbolIndex;
+    }
+    
 
     private void SpinReel(bool obj)
     {
-        isSpinning = obj;
-        currentSpeed = spinSpeed;
+        StartCoroutine(SpinReel());
     }
+
 
     private void StopReel(bool obj)
     {
-        isStopping = obj;
-        targetSymbol = FindClosestSymbol();
-    }
+        StopAllCoroutines();
 
-    void Update()
-    {
-        if (isSpinning)
+        // Find the target symbol that should land in the middle
+        targetSymbol =  reelSymbolsList[SymbolIndex()];
+
+        if (targetSymbol == null)
         {
-            transform.Rotate(Vector3.left * currentSpeed * Time.deltaTime);
+            Debug.LogError("No valid symbol found for stopping!");
+            return;
+        }
 
-            // If stopping, decelerate
-            if (isStopping)
+        // Snap to the exact angle where the symbol aligns with the middle raycaster
+        float targetRotationX = targetSymbol.transform.localEulerAngles.x;
+
+        transform.DORotate(new Vector3(targetRotationX, 0, 0), decelerationDuration, RotateMode.Fast)
+            .SetEase(Ease.OutCubic);
+    }
+    
+    /*private Symbols FindClosestSymbolToRaycaster(Transform raycaster)
+    {
+        Symbols closest = null;
+        float minDistance = float.MaxValue;
+
+        foreach (Symbols symbol in reelSymbolsList)
+        {
+            float distance = Vector3.Distance(symbol.transform.position, raycaster.position);
+            if (distance < minDistance)
             {
-                currentSpeed -= decelerationRate * Time.deltaTime;
-                if (currentSpeed <= stopThreshold)
-                {
-                    SnapToClosestSymbol();
-                }
+                minDistance = distance;
+                closest = symbol;
             }
         }
+        return closest;
+    }*/
+    
+
+    IEnumerator SpinReel()
+    {
+        transform.DORotate(new Vector3(SymbolIndex()*stoppingAngle*10, 0, 0), 3f, RotateMode.FastBeyond360)
+            .SetEase(Ease.Linear)
+            .OnComplete(() => StopReel(true));
+        
+        yield return new WaitForSeconds(3f);
     }
+    
+    
 
     void SpawnReelSymbols()
     {
@@ -106,7 +192,7 @@ public class Slotreel : MonoBehaviour
         }
     }
     
-    private Symbols FindClosestSymbol()
+    /*private Symbols FindClosestSymbol()
     {
         Symbols closest = null;
         float minDistance = Mathf.Infinity;
@@ -136,9 +222,9 @@ public class Slotreel : MonoBehaviour
         }
         
         return closest;
-    }
+    }*/
 
-    private void SnapToClosestSymbol()
+    /*private void SnapToClosestSymbol()
     {
         if (targetSymbol != null)
         {
@@ -150,9 +236,9 @@ public class Slotreel : MonoBehaviour
         }
         isSpinning = false;
         isStopping = false;
-    }
+    }*/
     
-    private IEnumerator SmoothSnap(Quaternion targetRotation)
+    /*private IEnumerator SmoothSnap(Quaternion targetRotation)
     {
         float duration = 0.3f; // Snap duration
         float elapsed = 0f;
@@ -166,5 +252,5 @@ public class Slotreel : MonoBehaviour
         }
 
         transform.rotation = targetRotation;
-    }
+    }*/
 }
