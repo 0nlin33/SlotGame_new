@@ -135,6 +135,8 @@ public class SlotController : MonoBehaviour
             WinChecking();
         }
     }
+    
+    
 
     private int j;
     public void WinChecking()
@@ -153,21 +155,40 @@ public class SlotController : MonoBehaviour
                 {
                     if (i == 0)
                     {
+                        OnBalanceChanged?.Invoke(newBetAmount *5);
                         OnBetWon?.Invoke(newBetAmount * 5, 1);
                     }
-                    else if (i == 1)
+                    if (i == 1)
                     {
+                        OnBalanceChanged?.Invoke(newBetAmount *10);
                         OnBetWon?.Invoke(newBetAmount * 10, 2);
                     }
                     else
                     {
+                        OnBalanceChanged?.Invoke(newBetAmount *20);
                         OnBetWon?.Invoke(newBetAmount * 20, 3);
                     }
-                    
                     
                 }
             }
         }
+
+        if (slotreel1.rayCasterSymbol[0].symbolID == slotreel2.rayCasterSymbol[1].symbolID &&
+            slotreel1.rayCasterSymbol[0].symbolID == slotreel3.rayCasterSymbol[2].symbolID)
+        {
+            Debug.Log("DiagonalWins!!! you win extra");
+            OnBalanceChanged?.Invoke(newBetAmount *50);
+            OnBetWon?.Invoke(newBetAmount * 50, 4);
+        }
+        
+        if (slotreel1.rayCasterSymbol[3].symbolID == slotreel2.rayCasterSymbol[1].symbolID &&
+            slotreel1.rayCasterSymbol[3].symbolID == slotreel3.rayCasterSymbol[0].symbolID)
+        {
+            Debug.Log("DiagonalWins!!! you win extra");
+            OnBalanceChanged?.Invoke(newBetAmount *50);
+            OnBetWon?.Invoke(newBetAmount * 50, 5);
+        }
+
     }
     
 }

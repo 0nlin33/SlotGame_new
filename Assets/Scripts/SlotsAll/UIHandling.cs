@@ -130,8 +130,13 @@ public class UIHandling : MonoBehaviour
     {
         spinButton.gameObject.SetActive(false);
         stopButton.gameObject.SetActive(true);
+
+        winAmountText.text = " ";
         
-        messageDisplayText.text = "Good Luck!";
+        if (!wonMessage)
+        {
+            messageDisplayText.text = "Good Luck!";
+        }
 
         StartCoroutine(ShowSpinButton());
 
