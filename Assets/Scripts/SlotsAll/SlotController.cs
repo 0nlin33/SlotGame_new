@@ -67,6 +67,7 @@ public class SlotController : MonoBehaviour
         OnStop?.Invoke(true);
     }
 
+    private bool freeSpin = false;
     private int betIncreamentAmount = 2;
     private int newBetAmount = 2;
 
@@ -123,8 +124,15 @@ public class SlotController : MonoBehaviour
                 StartCoroutine(WinStatus());
             }
         }
+        else if (freeSpin)
+        {
+            if (slotreel1.isSpinning == false && slotreel2.isSpinning == false && slotreel3.isSpinning == false)
+            {
+                StartCoroutine(WinStatus());
+            }
+        }
     }
-
+    
     private bool winCheckOnce = false;
     IEnumerator WinStatus()
     {
@@ -137,10 +145,11 @@ public class SlotController : MonoBehaviour
     }
     
     
-
+    public Action<int>  OnFreespinHit;
     private int j;
     public void WinChecking()
     {
+        freeSpin = false;
         winCheckOnce = false;
         startSpinning = false;
         Debug.Log("Win Checking "+j+" called this many times");
@@ -168,7 +177,12 @@ public class SlotController : MonoBehaviour
                         OnBalanceChanged?.Invoke(newBetAmount *20);
                         OnBetWon?.Invoke(newBetAmount * 20, 3);
                     }
-                    
+
+                    if (slotreel1.rayCasterSymbol[i].symbolID == 5)
+                    {
+                        freeSpin = true;
+                        OnFreespinHit?.Invoke(1);
+                    }
                 }
             }
         }

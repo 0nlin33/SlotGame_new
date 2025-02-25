@@ -26,6 +26,13 @@ public class UIHandling : MonoBehaviour
     [SerializeField] private TextMeshProUGUI winAmountText;
     [SerializeField] private TextMeshProUGUI messageDisplayText;
     
+    [Header("Simulator Part for FreeSpin")]
+    [SerializeField]private Slotreel slotreel1;
+    [SerializeField]private Slotreel slotreel2;
+    [SerializeField]private Slotreel slotreel3;
+    [SerializeField] private Button enableSimulateButton;
+    [SerializeField] private Button disableSimulateButton;
+
     SlotController slotController;
     // Start is called before the first frame update
     void Start()
@@ -37,7 +44,11 @@ public class UIHandling : MonoBehaviour
         slotController.OnStop += StopPressed;
         slotController.OnFastModeToggled += ToggleFastMode;
         slotController.OnBetWon += OnBetWon;
+        slotController.OnFreespinHit += FreeSpinDisplay;
 
+        slotreel1.OnReelStop += OnReel1Stop;
+        slotreel2.OnReelStop += OnReel2Stop;
+        slotreel3.OnReelStop += OnReel3Stop;
         
         balanceAmountText.text = slotController.BalanceInfo().ToString();
         betAmountText.text = slotController.currentBetAmount().ToString();
@@ -48,12 +59,44 @@ public class UIHandling : MonoBehaviour
         
         FastModeOn.gameObject.SetActive(true);
         FastModeOff.gameObject.SetActive(false);
+        
+        enableSimulateButton.gameObject.SetActive(true);
+        disableSimulateButton.gameObject.SetActive(false);
+    }
+
+    bool reel1Stopped = false;
+    bool reel2Stopped = false;
+    bool reel3Stopped = false;
+    void OnReel1Stop()
+    {
+        reel1Stopped = true;
+    }
+
+    void OnReel2Stop()
+    {
+        reel2Stopped = true;
+    }
+
+    void OnReel3Stop()
+    {
+        reel3Stopped = true;
+        freeSpinRewardAmount -= freeSpinRewardAmount;
+        if (freeSpinRewardAmount >= 0)
+        {
+            FreeSpinDisplay(freeSpinRewardAmount);
+        }
+        freeSpinCountText.gameObject.SetActive(false);
     }
     
     private bool wonMessage = false;
 
+    public bool playerWon = false;
+    public bool spinButtonStatus => spinButton.interactable;
+    
+
     private void OnBetWon(int winAmount, int winLine)
     {
+        playerWon = true;
         spinButton.interactable = false;
         wonMessage = true;
         winAmountText.text = winAmount.ToString();
@@ -61,6 +104,45 @@ public class UIHandling : MonoBehaviour
         
         StartCoroutine(DisplayWinLine(winLine));
     }
+
+
+    #region FreeSpinSimulator
+    public void SimulateFreeSpinTrigger()
+    {
+        slotreel1.simulateOutcome = true;
+        slotreel2.simulateOutcome = true;
+        slotreel3.simulateOutcome = true;
+
+        slotreel1.simulatedSymbolIndex = 5;
+        slotreel2.simulatedSymbolIndex = 5;
+        slotreel3.simulatedSymbolIndex = 5;
+        
+        enableSimulateButton.gameObject.SetActive(false);
+        disableSimulateButton.gameObject.SetActive(true);
+    }
+
+    public void DisableFreeSpinSimulator()
+    {
+        slotreel1.simulateOutcome = false;
+        slotreel2.simulateOutcome = false;
+        slotreel3.simulateOutcome = false;
+        
+        
+        enableSimulateButton.gameObject.SetActive(true);
+        disableSimulateButton.gameObject.SetActive(false);
+    }
+
+    [SerializeField] private TextMeshProUGUI freeSpinCountText;
+    [SerializeField]private int freeSpinRewardAmount = 0;
+    private void FreeSpinDisplay(int freeSpinCount)
+    {
+        DisableFreeSpinSimulator();
+        freeSpinCountText.gameObject.SetActive(true);
+        freeSpinRewardAmount = freeSpinCount;
+        freeSpinCountText.text = freeSpinCount.ToString();
+    }
+    #endregion
+    
 
     IEnumerator DisplayWinLine(int winLine)
     {
@@ -94,7 +176,8 @@ public class UIHandling : MonoBehaviour
             winLine3Effect.SetActive(false);
         }
         
-        spinButton.interactable = true; 
+        spinButton.interactable = true;
+        playerWon = false;
     }
     
     private void ToggleFastMode(bool obj)
@@ -117,13 +200,16 @@ public class UIHandling : MonoBehaviour
         stopButton.gameObject.SetActive(false);
         spinButton.gameObject.SetActive(true);
         
-        StartCoroutine(EnableSpinButton());
+        StartCoroutine(EnableSpinButtonAfterStop());
     }
 
-    IEnumerator EnableSpinButton()
+    IEnumerator EnableSpinButtonAfterStop()
     {
         yield return new WaitForSeconds(1f);
-        spinButton.interactable = true;
+        if (!playerWon)
+        {
+            spinButton.interactable = true;
+        }
     }
 
     private void StartPressed(bool obj)
@@ -160,11 +246,11 @@ public class UIHandling : MonoBehaviour
         yield return new WaitForSeconds(stopTime);
         StopPressed(true);
         yield return new WaitForSeconds(.5f);
-        spinButton.interactable = true;
-
-        if (!wonMessage)
+        if (!playerWon)
         {
             messageDisplayText.text = "Press Spin to play!!!";
+            spinButton.interactable = true;
+            playerWon = false;
         }
     }
 

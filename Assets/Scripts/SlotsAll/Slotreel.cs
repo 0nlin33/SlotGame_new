@@ -53,11 +53,30 @@ public class Slotreel : MonoBehaviour
         slotController = SlotController.instance;
 
         slotController.OnStop += StopReel;
-        slotController.OnStart += SpinReel;
+        slotController.OnStart += OnSpinReel;
         slotController.OnFastModeToggled += ChangeFastMode;
+        slotController.OnFreespinHit += OnFreeSpinHit;
         stoppingAngle = 360/reelSymbolsList.Count;
         
         fastPlay = slotController.fastPlay;
+    }
+
+    bool isFreeSpin = false;
+    
+    private void OnFreeSpinHit(int freeSpinCount)
+    {
+        isFreeSpin = true;
+        for (int i = 0; i < freeSpinCount; i++)
+        {
+            StartCoroutine(StartFreeSpin(freeSpinCount));
+        }
+    }
+
+    IEnumerator StartFreeSpin(int freeSpinCount)
+    {
+        yield return new WaitForSeconds(0.5f);
+        OnSpinReel(true);
+        yield return new WaitForSeconds(3.5f);
     }
 
     private void ChangeFastMode(bool obj)
@@ -82,7 +101,7 @@ public class Slotreel : MonoBehaviour
         return stoppingSymbolIndex;
     }
 
-    private void SpinReel(bool obj)
+    private void OnSpinReel(bool obj)
     {
         if (obj)
         {
@@ -96,8 +115,14 @@ public class Slotreel : MonoBehaviour
     }
 
 
+    public Action OnReelStop; 
     private void StopReel(bool obj)
     {
+        if (isFreeSpin)
+        {
+            OnReelStop?.Invoke();
+        }
+        
         targetSymbol =  reelSymbolsList[generatedValue];
 
         if (targetSymbol == null)
@@ -106,14 +131,12 @@ public class Slotreel : MonoBehaviour
             return;
         }
 
-        // Snap to the exact angle where the symbol aligns with the middle raycaster
-        float targetRotationX = targetSymbol.transform.localEulerAngles.x;
-
         transform.DORotate(new Vector3(-generatedValue*stoppingAngle-96, 0, 0), decelerationDuration, RotateMode.Fast)
             .SetEase(Ease.Linear).OnComplete(()=>ResultSymbols());
 
         spinTween.Kill();
         isSpinning = false;
+        isFreeSpin = false;
     }
 
     public List<Symbols> rayCasterSymbol = new List<Symbols>();
