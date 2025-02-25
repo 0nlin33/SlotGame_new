@@ -1,0 +1,65 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:6691cc9b8c3ebe7a9894422bbef715c2:aaf28f10e938e9dca4290d92e5e673ce:64d56465927d50bb5400e4c66dc46a97$
+#
+:format=40300
+:texture=UI.png
+:size=2048x512
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+10;1030;119;54;28; 0.5;0.5; 0;0;0;0
+auto play;908;7;235;38; 0.5;0.5; 0;0;0;0
+cancel;886;110;89;37; 0.5;0.5; 0;0;0;0
+Line;337;239;354;4; 0.5;0.5; 0;0;0;0
+menu_texture0_level1_0014_Layer-17;1;81;158;66; 0.5;0.5; 0;0;0;0
+menu_texture0_level1_0015_Layer-18;1;13;158;66; 0.5;0.5; 0;0;0;0
+menu_texture0_level1_0016_Layer-19;161;81;158;66; 0.5;0.5; 0;0;0;0
+menu_texture0_level1_0017_Layer-20;161;13;158;66; 0.5;0.5; 0;0;0;0
+menu_texture0_level1_0018_Layer-21;450;91;124;56; 0.5;0.5; 0;0;0;0
+menu_texture0_level1_0019_Layer-22;450;33;124;56; 0.5;0.5; 0;0;0;0
+menu_texture0_level1_0020_Layer-23;576;91;124;56; 0.5;0.5; 0;0;0;0
+menu_texture0_level1_0021_Layer-24;576;33;124;56; 0.5;0.5; 0;0;0;0
+menu_texture0_level1_0022_Layer-25;702;91;124;56; 0.5;0.5; 0;0;0;0
+menu_texture0_level1_0023_Layer-26;321;91;127;56; 0.5;0.5; 0;0;0;0
+menu_texture0_level1_0024_Layer-27;321;33;127;56; 0.5;0.5; 0;0;0;0
+menu_texture0_level1_0025_Layer-28;1;328;2000;183; 0.5;0.5; 0;0;0;0
+menu_texture0_level1_0030_Layer-33;702;39;56;50; 0.5;0.5; 0;0;0;0
+menu_texture0_level1_0031_Layer-34;760;39;56;50; 0.5;0.5; 0;0;0;0
+menu_texture0_level1_0032_Layer-35;818;39;56;50; 0.5;0.5; 0;0;0;0
+menu_texture0_level1_0033_Layer-36;828;97;56;50; 0.5;0.5; 0;0;0;0
+number pannel 2;1039;89;54;28; 0.5;0.5; 0;0;0;0
+number pannel;1145;18;54;28; 0.5;0.5; 0;0;0;0
+ok;948;71;89;37; 0.5;0.5; 0;0;0;0
+skin_texture1_level1_0025_Layer-28;1;149;1031;81; 0.5;0.5; 0;0;0;0
+skin_texture1_level1_0026_Layer-29;97;245;1031;81; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0004_Layer-7;337;233;240;4; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0006_Layer-9;321;2;165;29; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0007_Layer-10;488;2;165;29; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0008_Layer-11;948;56;120;13; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0009_Layer-12;1039;74;120;13; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0010_Layer-13;1145;3;120;13; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0011_Layer-14;579;233;80;4; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0012_Layer-15;876;47;70;48; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0013_Layer-16;708;1;98;36; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0014_Layer-17;808;1;98;36; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0015_Layer-18;1;232;94;94; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0016_Layer-19;1070;48;74;24; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0017_Layer-20;1146;48;74;24; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0018_Layer-21;655;2;51;29; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0019_Layer-22;977;118;51;29; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0020_Layer-23;2003;486;30;25; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0021_Layer-24;2003;459;30;25; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0022_Layer-25;2003;443;29;14; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0023_Layer-26;2035;497;10;14; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0024_Layer-27;2003;427;29;14; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0025_Layer-28;97;234;120;9; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0026_Layer-29;219;235;116;8; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0027_Layer-30;2003;370;26;26; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0028_Layer-31;2003;343;25;25; 0.5;0.5; 0;0;0;0
+videoslot_popup_texture0_level1_0029_Layer-32;2003;398;26;27; 0.5;0.5; 0;0;0;0
